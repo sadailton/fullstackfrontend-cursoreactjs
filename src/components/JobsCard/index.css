@@ -1,0 +1,36 @@
+main-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.jobsCard-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: flex-start;
+    width: 800px;
+    height: 100px;
+    background: #82a0aa;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jobsCard-container img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+}
+
+.jobsCard-container span{
+    color: #ffffff;
+}
+
+.jobsCard-container p{
+    color: white;
+    display: flex;
+}
